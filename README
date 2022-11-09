@@ -1,3 +1,9 @@
 # FRONTEND
 npx create-react-app frontend
 npm install @mui/material @emotion/react @emotion/styled @thaysang/mui
+npm swr
+#BACKEND
+mkdir backend 
+npm init -y
+npm install express
+npm i -D nodemon

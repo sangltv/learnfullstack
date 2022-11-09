@@ -1,1 +1,1 @@
-GET https://reqres.in/api/users
+GET http://localhost:3001/users
