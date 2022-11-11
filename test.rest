@@ -1,1 +1,12 @@
-GET http://localhost:3001/users
+GET https://nodejs-fake-api.herokuapp.com/products
+###
+GET https://nodejs-fake-api.herokuapp.com/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImlhdCI6MTY2ODE2NTkyOCwiZXhwIjoxNjY4MTY2ODI4fQ.77fx_a6TVyhVc5OHgi4I0v99leWBkDQO79Xh0OskmPM
+###
+POST https://nodejs-fake-api.herokuapp.com/login
+Content-Type: application/json
+
+{
+    "username":"afarncomb1",
+    "password":"FfshsAlZ"
+}
